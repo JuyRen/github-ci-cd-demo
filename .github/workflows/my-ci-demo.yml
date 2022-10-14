@@ -21,11 +21,11 @@ jobs:
           yarn install
           yarn build
 
-      - name: Upload
-        uses: appleboy/scp-action@master
-        with:
-          host: 47.98.191.98
-          username: root
-          password: Aa879757
-          source: "build/"
-          target: "/root/app"
+      # - name: Upload
+      # uses: appleboy/scp-action@master
+      # with:
+      # host: 47.98.191.98
+      # username: root
+      # password: Aa879757
+      # source: "build/"
+      # target: "/root/app"
